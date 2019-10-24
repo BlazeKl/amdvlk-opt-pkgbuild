@@ -1,0 +1,52 @@
+diff --git a/json/Redhat/amd_icd32.json b/json/Redhat/amd_icd32.json
+index 1d06d67..cb0eca8 100644
+--- a/json/Redhat/amd_icd32.json
++++ b/json/Redhat/amd_icd32.json
+@@ -1,7 +1,7 @@
+ {
+ 	"file_format_version": "1.0.0",
+ 		"ICD": {
+-			"library_path": "/usr/lib/amdvlk32.so",
++			"library_path": "/opt/amdvlk/usr/lib/amdvlk32.so",
+ 			"api_version": "1.1.121"
+ 		}
+ }
+diff --git a/json/Redhat/amd_icd64.json b/json/Redhat/amd_icd64.json
+index 8678da6..2e3bfc4 100644
+--- a/json/Redhat/amd_icd64.json
++++ b/json/Redhat/amd_icd64.json
+@@ -1,7 +1,7 @@
+ {
+ 	"file_format_version": "1.0.0",
+ 		"ICD": {
+-			"library_path": "/usr/lib64/amdvlk64.so",
++			"library_path": "/opt/amdvlk/usr/lib64/amdvlk64.so",
+ 			"api_version": "1.1.121"
+ 		}
+ }
+diff --git a/json/Ubuntu/amd_icd32.json b/json/Ubuntu/amd_icd32.json
+index 98c3f56..53128f9 100644
+--- a/json/Ubuntu/amd_icd32.json
++++ b/json/Ubuntu/amd_icd32.json
+@@ -1,7 +1,7 @@
+ {
+ 	"file_format_version": "1.0.0",
+ 		"ICD": {
+-			"library_path": "/usr/lib/i386-linux-gnu/amdvlk32.so",
++			"library_path": "/opt/amdvlk/usr/lib/i386-linux-gnu/amdvlk32.so",
+ 			"api_version": "1.1.121"
+ 		}
+ }
+diff --git a/json/Ubuntu/amd_icd64.json b/json/Ubuntu/amd_icd64.json
+index 75f5578..986ee8e 100644
+--- a/json/Ubuntu/amd_icd64.json
++++ b/json/Ubuntu/amd_icd64.json
+@@ -1,7 +1,7 @@
+ {
+ 	"file_format_version": "1.0.0",
+ 		"ICD": {
+-			"library_path": "/usr/lib/x86_64-linux-gnu/amdvlk64.so",
++			"library_path": "/opt/amdvlk/usr/lib/x86_64-linux-gnu/amdvlk64.so",
+ 			"api_version": "1.1.121"
+ 		}
+ }
